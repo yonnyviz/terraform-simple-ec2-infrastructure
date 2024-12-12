@@ -11,11 +11,6 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "terraform-state-xmghu0yx-4fc0e113-9a9a-4c1c-9a13-283a5d989984"
-    key            = "terraform.tfstate"
-    dynamodb_table = "terraform-lock-xmghu0yx-4fc0e113-9a9a-4c1c-9a13-283a5d989984"
-    region         = "us-east-1"
-    encrypt        = true
   }
 }
 
